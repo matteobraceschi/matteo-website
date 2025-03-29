@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const photos = [
   { src: "/images/gruppo.jpg", text: "Friends" },
-  { src: "/images/japan_ghibli_gpt.png", text: "Japan Trip" },
+  { src: "/images/japan.png", text: "Japan Trip" },
 ];
 
 export default function PhotoTimeline() {

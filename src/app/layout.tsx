@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matteo Website",
+  title: "Matteo Braceschi",
   description: "The personal website of Matteo",
 };
 

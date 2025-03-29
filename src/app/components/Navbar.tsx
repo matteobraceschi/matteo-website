@@ -16,7 +16,7 @@ export default function Navbar() {
       <h2 className="text-xl font-semibold text-white">{personalInfo.name}</h2>
       <div className="flex gap-4">
         <a
-          href="#about"
+          href="#esperienze"
           className="text-violet-300 hover:text-white transition"
         >
           About
@@ -25,13 +25,13 @@ export default function Navbar() {
           href="#progetti"
           className="text-violet-300 hover:text-white transition"
         >
-          Progetti
+          Projects
         </a>
         <a
           href="#contatti"
           className="text-violet-300 hover:text-white transition"
         >
-          Contatti
+          Contacts
         </a>
       </div>
     </motion.nav>

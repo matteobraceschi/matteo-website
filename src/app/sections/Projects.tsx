@@ -17,14 +17,14 @@ export default function ProjectsSection() {
           <h3 className="text-xl font-semibold text-white mb-2">Project One</h3>
           <p className="text-gray-400">
             Un progetto che combina React, Tailwind e AI per creare
-            un'esperienza unica.
+            un&apos;esperienza unica.
           </p>
         </div>
         <div className="p-6 bg-black/50 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold text-white mb-2">Project Two</h3>
           <p className="text-gray-400">
-            Un'app mobile sviluppata in Flutter per connettere creativi in tempo
-            reale.
+            Un&apos;app mobile sviluppata in Flutter per connettere creativi in
+            tempo reale.
           </p>
         </div>
       </div>

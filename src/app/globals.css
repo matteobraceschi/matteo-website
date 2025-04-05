@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.animate-fade-in-out {
+  animation: fadeInOut 1.5s ease-in-out forwards;
+}
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  25%, 75% { opacity: 1; }
+}

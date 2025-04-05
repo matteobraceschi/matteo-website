@@ -13,7 +13,11 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="text-xl font-semibold text-white">{personalInfo.name}</h2>
+      <a href="/">
+        <h2 className="text-xl font-semibold text-white">
+          {personalInfo.name}{" "}
+        </h2>
+      </a>
       <div className="flex gap-4">
         <a
           href="#esperienze"

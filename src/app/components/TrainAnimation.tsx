@@ -283,7 +283,6 @@ function CameraController({ progress }: { progress: number }) {
     const end = new THREE.Vector3(0, 25, 25);
 
     const zoomInEnd = 0.08;
-    const trainStart = 0.25;
     const trainEnd = 0.9;
 
     if (progress < zoomInEnd) {
